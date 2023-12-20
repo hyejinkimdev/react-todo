@@ -12,6 +12,7 @@ export default function TodoList() {
           <li key={item.id}>{item.text}</li>
         ))}
       </ul>
+      <AddTodo />
     </section>
   );
 }
